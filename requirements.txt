@@ -1,0 +1,33 @@
+Requirements to Run
+
+System Requirements
+
+- Operating System Windows, macOS, or Linux
+- Python Version 3.9 or higher
+- IDEEnvironment Jupyter Notebook, VS Code, or any Python IDE
+Libraries & Dependencies
+Install the following Python libraries
+pip install pandas matplotlib seaborn plotly
+
+
+Data Requirements
+
+- sales_data.csv – Transaction-level sales data (Date, Product, Quantity, Price, Customer_ID, Region, Total_Sales).
+- customer_churn.csv – Customer churn dataset (CustomerID, Tenure, MonthlyCharges, TotalCharges, Contract, PaymentMethod, PaperlessBilling, SeniorCitizen, Churn).
+Both files must be placed in the working directory before running the notebookscript.
+
+Execution Steps
+
+- Open the notebookscript (customer_analysis.ipynb or customer_analysis.py).
+- Run cells sequentially from Day 1 (Data Loading) to Day 7 (Report & Insights).
+- Ensure datasets are loaded correctly and dependencies are installed.
+- Outputs will include
+- Aggregated tables (top customers, regional sales, churn analysis).
+- Visualizations (bar, line, stacked bar, pie, heatmap).
+- Executive summary and recommendations.
+
+Deliverables Generated
+
+- Dashboard Visualizations (charts and plots).
+- Analysis Report (analysis_report.pdf).
+- Requirements Document (requirements.txt or .docx).
